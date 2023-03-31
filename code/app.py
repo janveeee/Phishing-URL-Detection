@@ -23,7 +23,7 @@
     "if page == 'Make a prediction':\n",
     "    st.write('''Edgar Allen Poe and Jane Austen: both authors. Which one do YOU write like?''')\n",
     "\n",
-    "    with open('models/author_pipe.pkl', mode='rb') as pickle_in:\n",
+    "    with open('/Users/phanisreevatsa/Desktop/streamlit_app/model.pk1', mode='rb') as pickle_in:\n",
     "        pipe = pickle.load(pickle_in)\n",
     "\n",
     "    user_text = st.text_input('Please input some text:',\n",
@@ -36,7 +36,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 0,
    "id": "9ce8be1e-88d6-47a6-b8f7-862877135bea",
    "metadata": {},
    "outputs": [],
